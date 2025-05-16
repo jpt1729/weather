@@ -1,5 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Data files
+data/
+*.csv
+
 # Logs
-logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -34,7 +43,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # TypeScript cache
@@ -65,7 +73,6 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.test
 .env.production
 .env.local
@@ -116,4 +123,7 @@ public
 tmp/
 temp/
 
-data/
+# IDE
+.idea/
+*.swp
+*.swo
